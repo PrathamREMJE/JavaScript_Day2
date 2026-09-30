@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <input placeholder="Type something" class="js-textbox" onkeyup="
+      const inputElement = document.querySelector('.js-textbox');
+      document.querySelector('.js-text-display').innerHTML = inputElement.value;
+    ">
+    <p class="js-text-display"></p>
+  </body>
+</html>
